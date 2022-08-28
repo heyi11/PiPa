@@ -35,6 +35,10 @@ public class WwiseSettings
 	public string WaapiPort = "8080";
 	public string WaapiIP = "127.0.0.1";
 
+	public string XMLTranslatorTimeout = "10";	//Timeout (in ms) for error translator through SoundBanksInfo.xml. Set to 0 to disable.
+	public string WaapiTranslatorTimeout = "0"; //Timeout (in ms) for error translator through WAAPI. Set to 0 to disable.
+
+
 	[System.Xml.Serialization.XmlIgnore]
 	public string WwiseInstallationPath
 	{
@@ -165,7 +169,7 @@ public class AkWwiseEditorSettings
 		get { return System.IO.Path.Combine(System.IO.Path.Combine("Assets", "Wwise"), "ScriptableObjects"); }
 	}
 
-	#region GUI
+#region GUI
 #if UNITY_2018_3_OR_NEWER
 	class SettingsProvider : UnityEditor.SettingsProvider
 #else
@@ -201,6 +205,10 @@ public class AkWwiseEditorSettings
 			public static UnityEngine.GUIContent UseWaapi = new UnityEngine.GUIContent("Connect to Wwise");
 			public static UnityEngine.GUIContent WaapiIP = new UnityEngine.GUIContent("WAAPI IP address");
 			public static UnityEngine.GUIContent WaapiPort = new UnityEngine.GUIContent("WAAPI port");
+
+			public static string TranslatorSection = "Wwise Error Message Translator";
+			public static UnityEngine.GUIContent XMLTranslatorTimeout = new UnityEngine.GUIContent("XML Translator Timeout", "Maximum time (ms) taken to convert numeric ID in errors through SoundBankInfo.xml. Set to 0 to disable. Change will be applied next time play mode is entered.");
+			public static UnityEngine.GUIContent WaapiTranslatorTimeout = new UnityEngine.GUIContent("WAAPI Translator Timeout", "Maximum time (ms) taken to convert numeric ID in errors through WAAPI. Set to 0 to disable. Change will be applied next time play mode is entered.");
 
 			public static string MandatorySettings = "* Mandatory settings";
 
@@ -464,6 +472,14 @@ public class AkWwiseEditorSettings
 				settings.WaapiIP = UnityEditor.EditorGUILayout.TextField(Styles.WaapiIP, settings.WaapiIP);
 			}
 
+			UnityEngine.GUILayout.Space(UnityEditor.EditorGUIUtility.standardVerticalSpacing);
+			UnityEngine.GUILayout.Label(Styles.TranslatorSection, UnityEditor.EditorStyles.boldLabel);
+			using (new UnityEngine.GUILayout.VerticalScope("box"))
+			{
+				settings.XMLTranslatorTimeout = UnityEditor.EditorGUILayout.TextField(Styles.XMLTranslatorTimeout, settings.XMLTranslatorTimeout);
+				settings.WaapiTranslatorTimeout = UnityEditor.EditorGUILayout.TextField(Styles.WaapiTranslatorTimeout, settings.WaapiTranslatorTimeout);
+			}
+
 			if (UnityEditor.EditorGUI.EndChangeCheck())
 				changed = true;
 
@@ -475,7 +491,7 @@ public class AkWwiseEditorSettings
 			if (changed)
 				settings.SaveSettings();
 		}
-		#endregion
+#endregion
 	}
 }
 #endif // UNITY_EDITOR

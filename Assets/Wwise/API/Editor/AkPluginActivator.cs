@@ -65,6 +65,7 @@ public class AkPluginActivator
 	private static readonly System.Collections.Generic.Dictionary<PluginID, string> PluginIDToStaticLibName =
 		new System.Collections.Generic.Dictionary<PluginID, string>
 		{
+			{ PluginID.Ak3DAudioBedMixer, "Ak3DAudioBedMixerFX" },
 			{ PluginID.AkAudioInput, "AkAudioInputSource" },
 			{ PluginID.AkCompressor, "AkCompressorFX" },
 			{ PluginID.AkRouterMixer, "AkRouterMixerFX" },
@@ -87,7 +88,6 @@ public class AkPluginActivator
 			{ PluginID.AkReflect, "AkReflectFX" },
 			{ PluginID.AkRoomVerb, "AkRoomVerbFX" },
 			{ PluginID.AkSoundSeedGrain, "AkSoundSeedGrainSource" },
-			{ PluginID.AkSoundSeedImpact, "AkSoundSeedImpactFX" },
 			{ PluginID.AkSoundSeedWind, "AkSoundSeedWindSource" },
 			{ PluginID.AkSoundSeedWoosh, "AkSoundSeedWooshSource" },
 			{ PluginID.AkStereoDelay, "AkStereoDelayFX" },
@@ -837,7 +837,7 @@ public class AkPluginActivator
 				var pluginInfoNode = Navigator.SelectSingleNode("//PluginInfo");
 				var boolMotion = pluginInfoNode.GetAttribute("Motion", "");
 
-				var it = Navigator.Select("//Plugin");
+				var it = Navigator.Select("//PluginLib");
 
 				if (boolMotion == "true")
 				{
@@ -848,7 +848,7 @@ public class AkPluginActivator
 
 				foreach (System.Xml.XPath.XPathNavigator node in it)
 				{
-					var rawPluginID = uint.Parse(node.GetAttribute("ID", ""));
+					var rawPluginID = uint.Parse(node.GetAttribute("LibId", ""));
 					if (rawPluginID == 0)
 					{
 						continue;
@@ -1049,6 +1049,7 @@ void *_pluginName_##_fp = (void*)&_pluginName_##Registration;
 	private enum PluginID
 	{
 		// Built-in plugins
+		Ak3DAudioBedMixer = 0x00BE0003, // Wwise 3D Audio Bed Mixer
 		AkCompressor = 0x006C0003, //Wwise Compressor
 		AkRouterMixer = 0x00AC0006, //Wwise RouterMixer
 		AkDelay = 0x006A0003, //Delay
@@ -1090,7 +1091,6 @@ void *_pluginName_##_fp = (void*)&_pluginName_##Registration;
 		AkRecorder = 0x840003,
 		AkReflect = 0xAB0003,
 		AkSoundSeedGrain = 0xB70002,
-		AkSoundSeedImpact = 0x740003,
 		AkSoundSeedWind = 0x770002,
 		AkSoundSeedWoosh = 0x780002,
 		AkStereoDelay = 0x870003,

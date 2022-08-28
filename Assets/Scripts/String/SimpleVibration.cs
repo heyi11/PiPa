@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,14 +15,18 @@ public class SimpleVibration : MonoBehaviour
     bool isTriggered = false;
     bool isVibrating = false;
     bool isDragging = false;
-    bool isRoot = false;
-    bool isForcing = false;
-    float rootDis;
-    float rootPos;
-    float currentDis;
+    //bool isRoot = false;
+    //bool isForcing = false;
+    //float rootDis;
+    //float rootPos;
+    //float currentDis;
     SimpleVibration target;
     List<float>[,] data;
-
+    public static float[] stringDragDistance = new float[4];
+    public static SimpleVibration[] stringArray = new SimpleVibration[4];
+    public int id=-1;
+    public static float extendLimit = 100f;
+    float lastPos;
     //vibration params
 
     float rho=0.000467f;
@@ -98,6 +103,14 @@ public class SimpleVibration : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        GameObject[] objs = GameObject.FindGameObjectsWithTag("StringEntry");
+        Array.Sort(objs, (p1, p2) => p1.name.CompareTo(p2.name));
+        int index = 0;
+        foreach(GameObject o in objs)
+        {
+            stringArray[index] = o.GetComponent<SimpleVibration>();
+            index++;
+        }
         meshFilter = GetComponent<MeshFilter>();
         mesh = meshFilter.mesh;
         //meshCollider = GetComponent<MeshCollider>();
@@ -274,9 +287,22 @@ public class SimpleVibration : MonoBehaviour
     public void OnStringDragging(float dis,float pos){
         isDragging = true;
         vers_origin.CopyTo(vers_drag, 0);
-        currentDis = dis;
-        rootPos = pos;
+        lastPos = pos;
+        //currentDis = dis;
+        //rootPos = pos;
         l_Vibration = Mathf.Sqrt(Mathf.Pow(dragIntensity * levelIntensity * dis, 2) + Mathf.Pow(z_first - pos, 2));
+        if (id != -1)
+        {
+            stringDragDistance[id] = dis;
+            if (dis > extendLimit && id > 0)
+            {
+                stringArray[id - 1].OnStringDragging(dis - extendLimit, lastPos);
+            }
+            else if(dis < -extendLimit && id < 3)
+            {
+                stringArray[id + 1].OnStringDragging(dis + extendLimit, lastPos);
+            }
+        }
         float k1 = dis/(z_first-pos);
         float k2 =dis/(pos-z_last);
         //float k1 = 50f;
@@ -325,10 +351,18 @@ public class SimpleVibration : MonoBehaviour
     public IEnumerator OnStringDragEnd(){
         int n =dragFrame;
         isDragging = false;
-        // vers_origin.CopyTo(vers,0);
+        float height = stringDragDistance[id];
+        if (height > extendLimit && id > 0)
+        {
+            stringArray[id - 1].StartCoroutine(stringArray[id - 1].OnStringDragEnd());
+        }
+        else if (height < -extendLimit && id < 3)
+        {
+            stringArray[id + 1].StartCoroutine(stringArray[id + 1].OnStringDragEnd());
+        }
         while (n>0){
             for (int j=0;j<vers.Length;j++){
-                vers_drag[j].z=Mathf.Lerp(vers_origin[j].z,vers_drag[j].z,dragSpeed);
+                vers_drag[j].z = Mathf.Lerp(vers_origin[j].z, vers_drag[j].z, dragSpeed);
             }
             mesh.vertices=vers_drag;
             mesh.RecalculateBounds();
@@ -344,14 +378,14 @@ public class SimpleVibration : MonoBehaviour
         if (isDragging) return Mathf.Min((int)(l_Vibration / l * splitLevel), splitLevel - 1);
         return splitLevel - 1;
     }
-    public void setRoot()
-    {
-        isRoot = true;
-    }
-    public void leaveRoot()
-    {
-        isRoot = false;
-    }
+    //public void setRoot()
+    //{
+    //    isRoot = true;
+    //}
+    //public void leaveRoot()
+    //{
+    //    isRoot = false;
+    //}
     //private void OnTriggerEnter(Collider other)
     //{
     //    Debug.Log(other.name);

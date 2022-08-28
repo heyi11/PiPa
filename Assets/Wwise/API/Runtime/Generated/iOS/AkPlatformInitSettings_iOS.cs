@@ -96,5 +96,8 @@ public class AkPlatformInitSettings : global::System.IDisposable {
     } 
   }
 
+  public bool bVerboseSystemOutput { set { AkSoundEnginePINVOKE.CSharp_AkPlatformInitSettings_bVerboseSystemOutput_set(swigCPtr, value); }  get { return AkSoundEnginePINVOKE.CSharp_AkPlatformInitSettings_bVerboseSystemOutput_get(swigCPtr); } 
+  }
+
 }
 #endif // #if UNITY_IOS && ! UNITY_EDITOR

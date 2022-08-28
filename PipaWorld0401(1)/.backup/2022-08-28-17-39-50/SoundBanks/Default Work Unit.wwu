@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{555B3A5F-B80A-43C2-8EEE-8FAF96053AED}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{555B3A5F-B80A-43C2-8EEE-8FAF96053AED}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="little_try" ID="{9FFECBEA-ABBF-4B30-A092-E4B4F21749DA}">
+					<ObjectInclusionList>
+						<ObjectRef Name="string1_flip" ID="{5811D2CE-B490-46D7-8619-D238DF730CEE}" WorkUnitID="{91BAB7F6-6FCF-44A3-9435-0287B5264274}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="test0422" ID="{78CD3D0D-E3DB-45E9-BADD-37D53D272978}">
+					<ObjectInclusionList>
+						<ObjectRef Name="string3_pick" ID="{23F659AE-A92D-40C4-B390-31D89B5E92FE}" WorkUnitID="{91BAB7F6-6FCF-44A3-9435-0287B5264274}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="string3_vibrato" ID="{89C599DA-5303-41A2-8242-7207FA645029}" WorkUnitID="{91BAB7F6-6FCF-44A3-9435-0287B5264274}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="string4_vacant" ID="{B2783B86-E43F-423A-BD85-855437B492E5}" WorkUnitID="{91BAB7F6-6FCF-44A3-9435-0287B5264274}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="string1_vacant" ID="{430D60CE-2E36-431C-BB6C-083583B63688}" WorkUnitID="{91BAB7F6-6FCF-44A3-9435-0287B5264274}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="string1_vibrato" ID="{F41D346F-4CF1-46CE-A614-B3621412FE25}" WorkUnitID="{91BAB7F6-6FCF-44A3-9435-0287B5264274}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="string4_pick" ID="{65A6188C-29F7-46EB-930B-BE84D8A80AAF}" WorkUnitID="{91BAB7F6-6FCF-44A3-9435-0287B5264274}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="string3_vacant" ID="{449ADD38-AD8E-47C7-8864-1F3BCF510F8A}" WorkUnitID="{91BAB7F6-6FCF-44A3-9435-0287B5264274}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="string2_pick" ID="{9ABA2DE3-39B9-498E-826B-9262FF591D06}" WorkUnitID="{91BAB7F6-6FCF-44A3-9435-0287B5264274}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="string2_vacant" ID="{41F66FC3-A03C-49DF-ACFE-204A190CA428}" WorkUnitID="{91BAB7F6-6FCF-44A3-9435-0287B5264274}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="string2_vibrato" ID="{6DF55D1B-961B-4C16-B3F8-FA29612F0AAF}" WorkUnitID="{91BAB7F6-6FCF-44A3-9435-0287B5264274}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="string4_vibrato" ID="{5301E608-807E-4C57-BDC4-46E3938F7041}" WorkUnitID="{91BAB7F6-6FCF-44A3-9435-0287B5264274}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="string1_pick" ID="{4836436C-CCA0-4F13-982F-FEA76BED74A9}" WorkUnitID="{91BAB7F6-6FCF-44A3-9435-0287B5264274}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

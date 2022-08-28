@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.IO.Ports;
+//using System.IO.Ports;
 using System.IO;
 using System.Threading;
 using System.Text;
@@ -10,14 +10,14 @@ using UnityEngine.UI;
 
 public class ArduinoConnect : MonoBehaviour
 {
-    //¶¨Òå»ù±¾ÐÅÏ¢
+    //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢
     string portName_1 = "COM4";
     int baudRate = 9600;
-    Parity parity = Parity.None;
+    //Parity parity = Parity.None;
     int dataBits = 8;
-    StopBits stopBits = StopBits.One;
+    //StopBits stopBits = StopBits.One;
 
-    SerialPort serialPort_1 = null;
+    //SerialPort serialPort_1 = null;
   
     public AudioSource TestSound;
 
@@ -36,11 +36,11 @@ public class ArduinoConnect : MonoBehaviour
 
     public void OpenPort()
     {
-        serialPort_1 = new SerialPort(portName_1, baudRate, parity, dataBits, stopBits);
+        //serialPort_1 = new SerialPort(portName_1, baudRate, parity, dataBits, stopBits);
 
         try
         {
-            serialPort_1.Open();
+            //serialPort_1.Open();
            
             Debug.Log("Open port success.");
         }
@@ -55,7 +55,7 @@ public class ArduinoConnect : MonoBehaviour
     {
         try
         {
-            serialPort_1.Close();
+            //serialPort_1.Close();
         }
         catch (Exception ex)
         {
@@ -64,34 +64,34 @@ public class ArduinoConnect : MonoBehaviour
     }
 
 
-    //¶ÁÈ¡Êý¾Ý
+    //ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½
     public void ReadData()
     {
-        if (serialPort_1.IsOpen)
-        {
-            string a = serialPort_1.ReadExisting();
-            print(a);
-            /*  if (int.Parse(a) > 200)
-              {
-                  TestSound.gameObject.SetActive(true);
-                 // Volume(a);
+        //if (serialPort_1.IsOpen)
+        //{
+        //    string a = serialPort_1.ReadExisting();
+        //    print(a);
+        //    /*  if (int.Parse(a) > 200)
+        //      {
+        //          TestSound.gameObject.SetActive(true);
+        //         // Volume(a);
 
-              }
-              else
-              {
-                  TestSound.gameObject.SetActive(false);
-              }*/
-            TestSound.volume = float.Parse(a)/50;
-            Thread.Sleep(200);
-        }
-        else
-        {
-            Debug.Log("Port is not opened");
-        }
+        //      }
+        //      else
+        //      {
+        //          TestSound.gameObject.SetActive(false);
+        //      }*/
+        //    TestSound.volume = float.Parse(a)/50;
+        //    Thread.Sleep(200);
+        //}
+        //else
+        //{
+        //    Debug.Log("Port is not opened");
+        //}
     }
 
 
-//¹ö¶¯Ìõ¿ØÖÆÒôÁ¿
+//ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     public void Volume(string touch)
     {
          int i= int.Parse(touch);

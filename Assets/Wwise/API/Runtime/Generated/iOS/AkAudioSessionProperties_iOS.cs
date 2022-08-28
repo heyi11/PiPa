@@ -62,6 +62,9 @@ public class AkAudioSessionProperties : global::System.IDisposable {
   public AkAudioSessionSetActiveOptions eSetActivateOptions { set { AkSoundEnginePINVOKE.CSharp_AkAudioSessionProperties_eSetActivateOptions_set(swigCPtr, (int)value); }  get { return (AkAudioSessionSetActiveOptions)AkSoundEnginePINVOKE.CSharp_AkAudioSessionProperties_eSetActivateOptions_get(swigCPtr); } 
   }
 
+  public AkAudioSessionBehaviorOptions eAudioSessionBehavior { set { AkSoundEnginePINVOKE.CSharp_AkAudioSessionProperties_eAudioSessionBehavior_set(swigCPtr, (int)value); }  get { return (AkAudioSessionBehaviorOptions)AkSoundEnginePINVOKE.CSharp_AkAudioSessionProperties_eAudioSessionBehavior_get(swigCPtr); } 
+  }
+
   public AkAudioSessionProperties() : this(AkSoundEnginePINVOKE.CSharp_new_AkAudioSessionProperties(), true) {
   }
 

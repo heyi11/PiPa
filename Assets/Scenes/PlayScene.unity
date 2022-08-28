@@ -1570,7 +1570,7 @@ GameObject:
   - component: {fileID: 262630062}
   m_Layer: 0
   m_Name: String_new3
-  m_TagString: Untagged
+  m_TagString: StringEntry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1601,6 +1601,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b6c93d30a7c761418083915934b6a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 2
+  extendLimit: 100
   l: 0.94
   h: 0.001
   delta: 0.0001
@@ -2443,7 +2445,7 @@ GameObject:
   - component: {fileID: 421316685}
   m_Layer: 0
   m_Name: String_new1
-  m_TagString: Untagged
+  m_TagString: StringEntry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2474,6 +2476,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b6c93d30a7c761418083915934b6a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 0
+  extendLimit: 100
   l: 0.94
   h: 0.001
   delta: 0.0001
@@ -3251,7 +3255,7 @@ GameObject:
   - component: {fileID: 705519887}
   m_Layer: 0
   m_Name: String_new2
-  m_TagString: Untagged
+  m_TagString: StringEntry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3282,6 +3286,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b6c93d30a7c761418083915934b6a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 1
+  extendLimit: 100
   l: 0.94
   h: 0.001
   delta: 0.0001
@@ -8393,7 +8399,7 @@ GameObject:
   - component: {fileID: 2055079355}
   m_Layer: 0
   m_Name: String_new4
-  m_TagString: Untagged
+  m_TagString: StringEntry
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8410,6 +8416,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b6c93d30a7c761418083915934b6a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  id: 3
+  extendLimit: 100
   l: 0.94
   h: 0.001
   delta: 0.0001

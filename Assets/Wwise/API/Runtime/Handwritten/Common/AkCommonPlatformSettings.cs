@@ -224,7 +224,7 @@ public partial class AkCommonUserSettings
 	public uint m_CommandQueueSize = 256 * 1024;
 
 	[UnityEngine.Tooltip("Number of samples per audio frame (256, 512, 1024, or 2048).")]
-	public uint m_SamplesPerFrame = 1024;
+	public uint m_SamplesPerFrame = 512;
 
 	[UnityEngine.Tooltip("Main output device settings.")]
 	public AkCommonOutputSettings m_MainOutputSettings;
@@ -323,18 +323,28 @@ public partial class AkCommonUserSettings
 		/// Valid range: 1-4.
 		public uint m_MaxReflectionOrder = 1;
 
-		[UnityEngine.Tooltip("Length of the rays that are cast inside Spatial Audio. Effectively caps the maximum length of an individual segment in a reflection or diffraction path.")]
+        [UnityEngine.Range(0, 8)]
+        [UnityEngine.Tooltip("Maximum diffraction order - the number of 'bends' in a diffraction path. A higher diffraction order accommodates more complex geometry at the expense of higher CPU usage. Diffraction must be enabled on the geometry to find diffraction paths. Set to 0 to disable diffraction on all geometry. This parameter limits the recursion depth of diffraction rays cast from the listener to scan the environment, and also the depth of the diffraction search to find paths between emitter and listener. To optimize CPU usage, it can be set to the maximum number of edges expected to be traversed by obstructing geometry.")]
+        /// Maximum diffraction order - the number of 'bends' in a diffraction path. A higher diffraction order accommodates more complex geometry at the expense of higher CPU usage.
+        /// This parameter limits the recursion depth of diffraction rays cast from the listener to scan the environment, and also the depth of the diffraction search to find paths between emitter and listener.
+        /// To optimize CPU usage, it can be set to the maximum number of edges expected to be traversed by obstructing geometry. 
+        /// Valid range: 1-4.
+        public uint m_MaxDiffractionOrder = 4;
+
+        [UnityEngine.Range(0, 4)]
+        [UnityEngine.Tooltip("The maximum possible number of diffraction points at each end of a reflection path. Diffraction on reflection allows reflections to fade in and out smoothly as the listener or emitter move in and out of the reflection's shadow zone. When greater than zero, diffraction rays are fired from the listener to search for reflections around one or more corners from the listener. Diffraction must be enabled on the geometry to find diffracted reflections. Set to 0 to disable diffraction on reflections.")]
+        /// The maximum possible number of diffraction points at each end of a reflection paths. Diffraction on reflection allows reflections to fade in and out smoothly as the listener or emitter move in and out of the reflection's shadow zone.
+        /// When greater than zero, diffraction rays are fired from the listener to search for reflections around one or more corners from the listener. Diffraction must be enabled on the geometry to find diffracted reflections.
+        /// Set to 0 to disable diffraction on reflections.
+        public uint m_DiffractionOnReflectionsOrder = 2;
+
+        [UnityEngine.Tooltip("Length of the rays that are cast inside Spatial Audio. Effectively caps the maximum length of an individual segment in a reflection or diffraction path.")]
         /// Length of the rays that are cast inside Spatial Audio. Effectively caps the maximum length of an individual segment in a reflection or diffraction path.
         public float m_MaxPathLength = 10000.0f;
 
         [UnityEngine.Tooltip("Controls the maximum percentage of an audio frame used by the raytracing engine. Percentage [0, 100] of the current audio frame. A value of 0 indicates no limit on the amount of CPU used for raytracing.")]
 		/// Controls the maximum percentage of an audio frame used by the raytracing engine. Percentage [0, 100] of the current audio frame. A value of 0 indicates no limit on the amount of CPU used for raytracing.
 		public float m_CPULimitPercentage = 0.0f;
-
-        [UnityEngine.Tooltip("Enable computation of diffraction along reflection paths.")]
-        [UnityEngine.Serialization.FormerlySerializedAs("m_EnableDiffraction")]
-        /// Enable computation of diffraction along reflection paths.
-        public bool m_EnableDiffractionOnReflections = true;
 
 		[UnityEngine.Tooltip("Enable computation of geometric diffraction and transmission paths for all sources that have that have the \"Enable Diffraction and Transmission\" box checked in the Positioning tab of the Wwise Property Editor. This flag enables sound paths around (diffraction) and thorugh (transmission) geometry. Setting to EnableGeometricDiffractionAndTransmission to false implies that geometry is only to be used for reflection calculation. Diffraction edges must be enabled on geometry for diffraction calculation. If EnableGeometricDiffractionAndTransmission is false but a sound has \"Enable Diffraction and Transmission\" checked in the positioning tab of the authoring tool, the sound will only diffract through portals but pass through geometry as if it is not there. One would typically disable this setting if the game intends to perform its own obstruction calculation, but in the situation where geometry is still passed to spatial audio for reflection calculation.")]
 		[UnityEngine.Serialization.FormerlySerializedAs("m_EnableDirectPathDiffraction")]
@@ -345,13 +355,10 @@ public partial class AkCommonUserSettings
 		/// An emitter that is diffracted through a portal or around geometry will have its apparent or virtual position calculated by Wwise Spatial Audio and passed on to the sound engine.
 		public bool m_CalcEmitterVirtualPosition = true;
 
-        [UnityEngine.Tooltip("Use the Wwise obstruction curve for modeling the effect of diffraction on a sound. Diffraction is only applied to sounds that have the \"Enable Diffraction and Transmission\" box checked in the Positioning tab of the Wwise Property Editor. Diffraction can also be applied using the diffraction built-in parameter, mapped to an RTPC (the built-in parameter is populated whether or not UseObstruction is checked). While the obstruction curve is a global setting for all sounds, using it to simulate diffraction is preferred over an RTPC, because it provides greater accuracy when modeling multiple diffraction paths, or a combination of diffraction and transmission paths. This is due to the fact that RTPCs can not be separately applied to individual sound paths. Only the path with the least amount of diffraction is sent to the RTPC.")]
-		/// Use the Wwise obstruction curve for modeling the effect of diffraction on a sound. Diffraction is only applied to sounds that have the \"Enable Diffraction and Transmission\" box checked in the Positioning tab of the Wwise Property Editor. Diffraction can also be applied using the diffraction built-in parameter, mapped to an RTPC (the built-in parameter is populated whether or not UseObstruction is checked). While the obstruction curve is a global setting for all sounds, using it to simulate diffraction is preferred over an RTPC, because it provides greater accuracy when modeling multiple diffraction paths, or a combination of diffraction and transmission paths. This is due to the fact that RTPCs can not be separately applied to individual sound paths. Only the path with the least amount of diffraction is sent to the RTPC.
-		public bool m_UseObstruction = true;
-
-        [UnityEngine.Tooltip("Use the Wwise occlusion curve for modeling the effect of transmission loss on a sound. The transmission loss factor is applied using the occlusion curve defined in the wwise project settings. Transmission loss is only applied to sounds that have the \"Enable Diffraction and Transmission\" box checked in the Positioning tab of the Wwise Property Editor. Transmission loss can also be applied using the transmission loss built-in parameter, mapped to an RTPC (the built-in parameter is populated whether or not UseOcclusion is checked). While the occlusion curve is a global setting for all sounds, using it to simulate transmission loss is preferred over an RTPC, because it provides greater accuracy when modeling both transmission and diffraction. This is due to the fact that RTPCs can not be applied to individual sound paths, therefore any parameter mapped to a transmission loss RTPC will also affect any potential diffraction paths originating from an emitter.")]
-		/// Use the Wwise occlusion curve for modeling the effect of transmission loss on a sound. The transmission loss factor is applied using the occlusion curve defined in the wwise project settings. Transmission loss is only applied to sounds that have the \"Enable Diffraction and Transmission\" box checked in the Positioning tab of the Wwise Property Editor. Transmission loss can also be applied using the transmission loss built-in parameter, mapped to an RTPC (the built-in parameter is populated whether or not UseOcclusion is checked). While the occlusion curve is a global setting for all sounds, using it to simulate transmission loss is preferred over an RTPC, because it provides greater accuracy when modeling both transmission and diffraction. This is due to the fact that RTPCs can not be applied to individual sound paths, therefore any parameter mapped to a transmission loss RTPC will also affect any potential diffraction paths originating from an emitter.
-		public bool m_UseOcclusion = true;
+		[UnityEngine.MinAttribute(1)]
+		[UnityEngine.Tooltip("Spread the computation of paths on uLoadBalancingSpread frames [1..[. When uLoadBalancingSpread is set to 1, no load balancing is done. Values greater than 1 indicate the computation of paths will be spread on this number of frames.")]
+		/// Spread the computation of paths on uLoadBalancingSpread frames [1..[. When uLoadBalancingSpread is set to 1, no load balancing is done. Values greater than 1 indicate the computation of paths will be spread on this number of frames.
+		public uint m_LoadBalancingSpread = 1;
 	}
 
 	[UnityEngine.Tooltip("Spatial audio common settings.")]
@@ -363,13 +370,13 @@ public partial class AkCommonUserSettings
 		settings.fMovementThreshold = m_SpatialAudioSettings.m_MovementThreshold;
 		settings.uNumberOfPrimaryRays = m_SpatialAudioSettings.m_NumberOfPrimaryRays;
 		settings.uMaxReflectionOrder = m_SpatialAudioSettings.m_MaxReflectionOrder;
+        settings.uMaxDiffractionOrder = m_SpatialAudioSettings.m_MaxDiffractionOrder;
+        settings.uDiffractionOnReflectionsOrder = m_SpatialAudioSettings.m_DiffractionOnReflectionsOrder;
 		settings.fMaxPathLength = m_SpatialAudioSettings.m_MaxPathLength;
 		settings.fCPULimitPercentage = m_SpatialAudioSettings.m_CPULimitPercentage;
-		settings.bEnableDiffractionOnReflection = m_SpatialAudioSettings.m_EnableDiffractionOnReflections;
 		settings.bEnableGeometricDiffractionAndTransmission = m_SpatialAudioSettings.m_EnableGeometricDiffractionAndTransmission;
 		settings.bCalcEmitterVirtualPosition = m_SpatialAudioSettings.m_CalcEmitterVirtualPosition;
-        settings.bUseObstruction = m_SpatialAudioSettings.m_UseObstruction;
-        settings.bUseOcclusion = m_SpatialAudioSettings.m_UseOcclusion;
+		settings.uLoadBalancingSpread = m_SpatialAudioSettings.m_LoadBalancingSpread;
     }
 
 	public virtual void CopyTo(AkUnityPlatformSpecificSettings settings) { }
@@ -482,9 +489,6 @@ public class AkCommonCommSettings
 	[UnityEngine.Tooltip("The \"command\" channel port. Set to 0 to request a dynamic/ephemeral port.")]
 	public ushort m_CommandPort;
 
-	[UnityEngine.Tooltip("The \"notification\" channel port. Set to 0 to request a dynamic/ephemeral port.")]
-	public ushort m_NotificationPort;
-
 	[UnityEngine.Tooltip("Indicates whether the communication system should be initialized. Some consoles have critical requirements for initialization of their communications system. Set to false only if your game already uses sockets before sound engine initialization.")]
 	public bool m_InitializeSystemComms = true;
 
@@ -499,7 +503,6 @@ public class AkCommonCommSettings
 		settings.uPoolSize = m_PoolSize;
 		settings.uDiscoveryBroadcastPort = m_DiscoveryBroadcastPort;
 		settings.uCommandPort = m_CommandPort;
-		settings.uNotificationPort = m_NotificationPort;
 		settings.bInitSystemLib = m_InitializeSystemComms;
 		settings.commSystem = m_commSystem;
 

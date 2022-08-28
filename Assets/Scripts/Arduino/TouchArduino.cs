@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System;
-using System.IO.Ports;
+//using System.IO.Ports;
 using System.IO;
 using System.Threading;
 using System.Text;
@@ -13,11 +13,11 @@ public class TouchArduino : MonoBehaviour
     //定义基本信息
     string portName_1 = "COM4";
     int baudRate = 9600;
-    Parity parity = Parity.None;
+    //Parity parity = Parity.None;
     int dataBits = 8;
-    StopBits stopBits = StopBits.One;
+    //StopBits stopBits = StopBits.One;
 
-    SerialPort serialPort_1 = null;
+    //SerialPort serialPort_1 = null;
 
 
     static int [] id_index = new int[4]{-1,-1,-1,-1};
@@ -167,44 +167,44 @@ public class TouchArduino : MonoBehaviour
     /// 
     public void OpenPort()
     {
-        serialPort_1 = new SerialPort(portName_1, baudRate, parity, dataBits, stopBits);
+        //serialPort_1 = new SerialPort(portName_1, baudRate, parity, dataBits, stopBits);
 
-        try
-        {
-            serialPort_1.Open();
+        //try
+        //{
+        //    serialPort_1.Open();
 
-            Debug.Log("Open port success.");
-        }
-        catch (Exception ex)
-        {
-            Debug.Log(ex.Message);
-        }
+        //    Debug.Log("Open port success.");
+        //}
+        //catch (Exception ex)
+        //{
+        //    Debug.Log(ex.Message);
+        //}
 
     }
     //读取数据
     public void ReadData()
     {
-        if (serialPort_1.IsOpen)
-        {
-            string a = serialPort_1.ReadExisting();
-            print(a);
-            /*  if (int.Parse(a) > 200)
-              {
-                  TestSound.gameObject.SetActive(true);
-                 // Volume(a);
+        //if (serialPort_1.IsOpen)
+        //{
+        //    string a = serialPort_1.ReadExisting();
+        //    print(a);
+        //    /*  if (int.Parse(a) > 200)
+        //      {
+        //          TestSound.gameObject.SetActive(true);
+        //         // Volume(a);
 
-              }
-              else
-              {
-                  TestSound.gameObject.SetActive(false);
-              }*/
-           // TestSound.volume = float.Parse(a) / 50;
-            Thread.Sleep(200);
-        }
-        else
-        {
-            Debug.Log("Port is not opened");
-        }
+        //      }
+        //      else
+        //      {
+        //          TestSound.gameObject.SetActive(false);
+        //      }*/
+        //   // TestSound.volume = float.Parse(a) / 50;
+        //    Thread.Sleep(200);
+        //}
+        //else
+        //{
+        //    Debug.Log("Port is not opened");
+        //}
     }
 
 

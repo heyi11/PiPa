@@ -112,8 +112,8 @@ public class AkMemBankLoader : UnityEngine.MonoBehaviour
         yield return ms_www;
         uint uInMemoryBankSize = AllocateAlignedBuffer(ms_www.bytes);
 #endif
-
-        var result = AkSoundEngine.LoadBankMemoryView(ms_pInMemoryBankPtr, uInMemoryBankSize, out ms_bankID);
+		uint BankType;
+        var result = AkSoundEngine.LoadBankMemoryView(ms_pInMemoryBankPtr, uInMemoryBankSize, out ms_bankID, out BankType);
 		if (result != AKRESULT.AK_Success)
 			UnityEngine.Debug.LogError("WwiseUnity: AkMemBankLoader: bank loading failed with result " + result);
 	}

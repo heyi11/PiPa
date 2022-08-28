@@ -243,7 +243,7 @@ public class TouchItem : MonoBehaviour
                 //sv.TriggerLimZSet(transModelPosZ(transform.localPosition.z));
                 sv.OnStringDragging(dis.y, transModelPosZ(transform.localPosition.z));
                 //Debug.Log("transform.position.y"+((transform.localPosition.z-17.5f)*(-0.109f-0.419f-(-1.03f+0.134f))/(-14.04f-17.5f)+(-1.03f+0.134f)));
-                sv.setRoot();
+                //sv.setRoot();
                 id_index[stringId-1] = triggerId;
             }
         }
@@ -265,8 +265,22 @@ public class TouchItem : MonoBehaviour
             TouchDelete(touchInfo);
             if(triggerType==TriggerType.LEFTHAND){
                 sv.TriggerLeave();
+                
+                //int selfId = sv.id;
+                //float dis = SimpleVibration.stringDragDistance[selfId];
+                //print($"dis:{dis}");
                 StartCoroutine(sv.OnStringDragEnd());
-                sv.leaveRoot();
+                //if (dis>extendLimit && selfId > 0)
+                //{
+                //    SimpleVibration sv_ = SimpleVibration.stringArray[selfId - 1];
+                //    sv_.StartCoroutine(sv_.OnStringDragEnd());
+                //}
+                //else if(dis<-extendLimit && selfId < 3)
+                //{
+                //    SimpleVibration sv_ = SimpleVibration.stringArray[selfId + 1];
+                //    sv_.StartCoroutine(sv_.OnStringDragEnd());
+                //}
+                //sv.leaveRoot();
                 change_distance.SetGlobalValue(0);
                 id_index[stringId-1] =-1;
                 Debug.Log("END");

@@ -10,8 +10,7 @@ public static class AkXboxOneUtils
 		var definitions = new[]
 		{
 			new SocketDefinition("WwiseDiscoverySocket", "24024", 1, "WwiseDiscovery"),
-			new SocketDefinition("WwiseCommandSocket", "24025", 0, "WwiseCommand"),
-			new SocketDefinition("WwiseNotificationSocket", "24026", 0, "WwiseNotification")
+			new SocketDefinition("WwiseCommandSocket", "24025", 0, "WwiseCommand")
 		};
 
 		foreach (var def in definitions)

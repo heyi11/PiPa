@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{91BAB7F6-6FCF-44A3-9435-0287B5264274}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{91BAB7F6-6FCF-44A3-9435-0287B5264274}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="string4_pick" ID="{65A6188C-29F7-46EB-930B-BE84D8A80AAF}">
+					<ChildrenList>
+						<Action Name="" ID="{74C62D40-85C3-47EA-8D1C-3F74BD1A7823}" ShortID="718302551">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pick_4" ID="{7E46585A-F1BD-4941-9C27-C09FB5D51E63}" WorkUnitID="{1733E5DD-4396-4004-8692-DD5BDEC00E54}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="string3_pick" ID="{23F659AE-A92D-40C4-B390-31D89B5E92FE}">
+					<ChildrenList>
+						<Action Name="" ID="{75769482-5E67-464A-B2D6-85D92A901AE0}" ShortID="99683284">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pick_3" ID="{18A69A4D-423A-4666-B909-473882696CB4}" WorkUnitID="{1733E5DD-4396-4004-8692-DD5BDEC00E54}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="string2_pick" ID="{9ABA2DE3-39B9-498E-826B-9262FF591D06}">
+					<ChildrenList>
+						<Action Name="" ID="{66432FDC-A2CC-44C6-9659-7EB831AA59AA}" ShortID="335544266">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pick_2" ID="{DB5678F6-F6D1-434A-AF46-1DF92FF06715}" WorkUnitID="{1733E5DD-4396-4004-8692-DD5BDEC00E54}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="string1_pick" ID="{4836436C-CCA0-4F13-982F-FEA76BED74A9}">
+					<ChildrenList>
+						<Action Name="" ID="{5C2EAB0E-27E5-4E70-AAB9-39C094E516C5}" ShortID="327852648">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="pick_1" ID="{1F06D18B-14BB-4FAD-B97C-F3C5642A318C}" WorkUnitID="{1733E5DD-4396-4004-8692-DD5BDEC00E54}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="string4_vacant" ID="{B2783B86-E43F-423A-BD85-855437B492E5}">
+					<ChildrenList>
+						<Action Name="" ID="{0CC386D9-E7B0-46A9-806F-F6DD63ED686B}" ShortID="553765605">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="vacant_4" ID="{E42ADE52-4ABD-4DBD-A4EE-5C6692B0456A}" WorkUnitID="{1733E5DD-4396-4004-8692-DD5BDEC00E54}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="string3_vacant" ID="{449ADD38-AD8E-47C7-8864-1F3BCF510F8A}">
+					<ChildrenList>
+						<Action Name="" ID="{AA32B26F-7D53-4B61-B040-90A46AFEAF71}" ShortID="831849565">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="vacant_3" ID="{D41F6E10-3CAC-45FC-A8BE-119FA0D22C49}" WorkUnitID="{1733E5DD-4396-4004-8692-DD5BDEC00E54}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="string2_vacant" ID="{41F66FC3-A03C-49DF-ACFE-204A190CA428}">
+					<ChildrenList>
+						<Action Name="" ID="{746BCB5B-100E-4780-B920-3BC1CE5AAD86}" ShortID="242869754">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="vacant_2" ID="{735B736F-F91D-4B89-941B-7EB0365DEC0E}" WorkUnitID="{1733E5DD-4396-4004-8692-DD5BDEC00E54}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="string1_vacant" ID="{430D60CE-2E36-431C-BB6C-083583B63688}">
+					<ChildrenList>
+						<Action Name="" ID="{0A0B70FE-ACCC-4230-A668-EE4811D69818}" ShortID="272482444">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="vacant_1" ID="{155C6466-D778-43F0-9F5A-40995A402212}" WorkUnitID="{1733E5DD-4396-4004-8692-DD5BDEC00E54}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="string1_vibrato" ID="{F41D346F-4CF1-46CE-A614-B3621412FE25}">
+					<ChildrenList>
+						<Action Name="" ID="{A952830A-0B03-46DE-B9C2-BAEE5BD1D84C}" ShortID="244626366">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vibrato1" ID="{CEEFE922-4FAA-4167-899E-A8EC878AC3B1}" WorkUnitID="{1733E5DD-4396-4004-8692-DD5BDEC00E54}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="string2_vibrato" ID="{6DF55D1B-961B-4C16-B3F8-FA29612F0AAF}">
+					<ChildrenList>
+						<Action Name="" ID="{CDDBCB69-02EC-4023-B986-0DCAD4C74A36}" ShortID="553699958">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vibrato2" ID="{D453CFED-D3AC-40A4-955C-319BD166A4B7}" WorkUnitID="{1733E5DD-4396-4004-8692-DD5BDEC00E54}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="string3_vibrato" ID="{89C599DA-5303-41A2-8242-7207FA645029}">
+					<ChildrenList>
+						<Action Name="" ID="{FC9EE90F-1CAA-4D69-868E-7EC520907DE5}" ShortID="873483693">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vibrato3" ID="{273E29AC-EC2B-432A-B4F4-E658C2B82918}" WorkUnitID="{1733E5DD-4396-4004-8692-DD5BDEC00E54}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="string4_vibrato" ID="{5301E608-807E-4C57-BDC4-46E3938F7041}">
+					<ChildrenList>
+						<Action Name="" ID="{3FF6E0F9-666A-4E56-A455-B8A4F4691DE6}" ShortID="628802506">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Vibrato4" ID="{EA744A85-D279-42F8-86D7-5B9EA04190E5}" WorkUnitID="{1733E5DD-4396-4004-8692-DD5BDEC00E54}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

@@ -1,141 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ValidationCache Version="1" SchemaVersion="103">
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1648372722" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Virtual Acoustics\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Triggers\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Switches\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\States\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\SoundBanks\Default Work Unit.wwu" DateLow="1650623688" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Queries\Factory Queries.wwu" DateLow="1648372722" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Queries\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Presets\Factory Spatial Audio.wwu" DateLow="1648372722" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Presets\Factory Reflect.wwu" DateLow="1648373000" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Presets\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\PipaWorld0401.wproj" DateLow="1650623029" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\PipaWorld0401.35079.wsettings" DateLow="1650797014" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Modulators\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Mixing Sessions\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Metadata\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1648805868" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1648373001" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Game Parameters\Factory Motion.wwu" DateLow="1648373002" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Game Parameters\Default Work Unit.wwu" DateLow="1650795114" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Events\Default Work Unit.wwu" DateLow="1650623688" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Effects\Factory Reflect.wwu" DateLow="1648373000" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Effects\Factory McDSP Effects.wwu" DateLow="1648372998" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Effects\Factory Mastering Suite.wwu" DateLow="1648373003" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1648372988" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1648372988" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1648372988" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Effects\Factory iZotope Filters.wwu" DateLow="1648372988" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Effects\Factory iZotope Dynamics.wwu" DateLow="1648372988" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Effects\Factory iZotope Delay.wwu" DateLow="1648372988" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Effects\Factory iZotope Box Modeler.wwu" DateLow="1648372988" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Effects\Factory Effects.wwu" DateLow="1648372722" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Effects\Factory Auro Headphone.wwu" DateLow="1648372977" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Effects\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1648372722" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Conversion Settings\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Control Surface Sessions\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Audio Devices\Default Work Unit.wwu" DateLow="1648805868" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Attenuations\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1648372722" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1648373001" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1648805868" DateHigh="0"/>
-	<ValidationCacheItem File="D:\大三春季学期\新媒体应用开发\PipaWorld0401(1)\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1650795114" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1648372722" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Virtual Acoustics\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Triggers\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Switches\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\States\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\SoundBanks\Default Work Unit.wwu" DateLow="1650623688" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Queries\Factory Queries.wwu" DateLow="1648372722" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Queries\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Presets\Factory Spatial Audio.wwu" DateLow="1648372722" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Presets\Factory Reflect.wwu" DateLow="1648373000" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Presets\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\PipaWorld0401.wproj" DateLow="1650623029" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\PipaWorld0401.35079.wsettings" DateLow="1650879056" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Modulators\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Mixing Sessions\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Metadata\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1648805868" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1648373001" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Game Parameters\Factory Motion.wwu" DateLow="1648373002" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Game Parameters\Default Work Unit.wwu" DateLow="1650795114" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Events\Default Work Unit.wwu" DateLow="1650623688" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Effects\Factory Reflect.wwu" DateLow="1648373000" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Effects\Factory McDSP Effects.wwu" DateLow="1648372998" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Effects\Factory Mastering Suite.wwu" DateLow="1648373003" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1648372988" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1648372988" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1648372988" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Effects\Factory iZotope Filters.wwu" DateLow="1648372988" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Effects\Factory iZotope Dynamics.wwu" DateLow="1648372988" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Effects\Factory iZotope Delay.wwu" DateLow="1648372988" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Effects\Factory iZotope Box Modeler.wwu" DateLow="1648372988" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Effects\Factory Effects.wwu" DateLow="1648372722" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Effects\Factory Auro Headphone.wwu" DateLow="1648372977" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Effects\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1648372722" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Conversion Settings\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Control Surface Sessions\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Audio Devices\Default Work Unit.wwu" DateLow="1648805868" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Attenuations\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1648372722" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1648373001" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1648805868" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Third\New App\PipaWorld0401(1)\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1650879055" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1648372722" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Virtual Acoustics\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Triggers\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Switches\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\States\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\SoundBanks\Default Work Unit.wwu" DateLow="1654184570" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Queries\Factory Queries.wwu" DateLow="1648372722" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Queries\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Presets\Factory Spatial Audio.wwu" DateLow="1648372722" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Presets\Factory Reflect.wwu" DateLow="1648373000" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Presets\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\PipaWorld0401.wproj" DateLow="1650623029" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\PipaWorld0401.35079.wsettings" DateLow="1654249167" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Modulators\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Mixing Sessions\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Metadata\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1648805868" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1648373001" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Game Parameters\Factory Motion.wwu" DateLow="1648373002" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Game Parameters\Default Work Unit.wwu" DateLow="1653641058" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Events\Default Work Unit.wwu" DateLow="1654184817" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Effects\Factory Reflect.wwu" DateLow="1648373000" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Effects\Factory McDSP Effects.wwu" DateLow="1648372998" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Effects\Factory Mastering Suite.wwu" DateLow="1648373003" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1648372988" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1648372988" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1648372988" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Effects\Factory iZotope Filters.wwu" DateLow="1648372988" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Effects\Factory iZotope Dynamics.wwu" DateLow="1648372988" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Effects\Factory iZotope Delay.wwu" DateLow="1648372988" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Effects\Factory iZotope Box Modeler.wwu" DateLow="1648372988" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Effects\Factory Effects.wwu" DateLow="1648372722" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Effects\Factory Auro Headphone.wwu" DateLow="1648372977" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Effects\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1648372722" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Conversion Settings\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Control Surface Sessions\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Audio Devices\Default Work Unit.wwu" DateLow="1648805868" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Attenuations\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1648372722" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1648373001" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1648805868" DateHigh="0"/>
-	<ValidationCacheItem File="D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1654184817" DateHigh="0"/>
+<ValidationCache Version="1" SchemaVersion="110">
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Virtual Acoustics\Default Work Unit.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Triggers\Default Work Unit.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Switches\Default Work Unit.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\States\Default Work Unit.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\SoundBanks\Default Work Unit.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Queries\Factory Queries.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Queries\Default Work Unit.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Presets\Factory Spatial Audio.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Presets\Factory Reflect.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Presets\Default Work Unit.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\PipaWorld0401.wproj" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\PipaWorld0401.35079.wsettings" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Modulators\Default Work Unit.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Mixing Sessions\Default Work Unit.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Metadata\Default Work Unit.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Game Parameters\Factory Motion.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Game Parameters\Default Work Unit.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Events\Default Work Unit.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Effects\Factory Reflect.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Effects\Factory McDSP Effects.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Effects\Factory Mastering Suite.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Effects\Factory iZotope Filters.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Effects\Factory iZotope Dynamics.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Effects\Factory iZotope Delay.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Effects\Factory iZotope Box Modeler.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Effects\Factory Effects.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Effects\Factory Auro Headphone.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Effects\Default Work Unit.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Conversion Settings\Default Work Unit.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Control Surface Sessions\Default Work Unit.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Audio Devices\Default Work Unit.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Attenuations\Default Work Unit.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1661679591" DateHigh="0"/>
+	<ValidationCacheItem File="D:\PI_PA-master-812e693ee923e1531150df2c698b042c979a984d\PipaWorld0401(1)\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1661679591" DateHigh="0"/>
 </ValidationCache>

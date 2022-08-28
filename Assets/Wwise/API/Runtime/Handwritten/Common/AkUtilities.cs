@@ -87,7 +87,7 @@ public partial class AkUtilities
 
 	public static bool IsSoundbankGenerationAvailable()
 	{
-		return GetWwiseCLI() != null;
+		return GetWwiseConsole() != null;
 	}
 
 	/// Executes a command-line. Blocks the calling thread until the new process has completed. Returns the logged stdout in one big string.
@@ -115,7 +115,7 @@ public partial class AkUtilities
 		return output;
 	}
 
-	private static string GetWwiseCLI()
+	private static string GetWwiseConsole()
 	{
 		string result = null;
 
@@ -124,14 +124,14 @@ public partial class AkUtilities
 #if UNITY_EDITOR_WIN
 		if (!string.IsNullOrEmpty(settings.WwiseInstallationPathWindows))
 		{
-			result = System.IO.Path.Combine(settings.WwiseInstallationPathWindows, @"Authoring\x64\Release\bin\WwiseCLI.exe");
+			result = System.IO.Path.Combine(settings.WwiseInstallationPathWindows, @"Authoring\x64\Release\bin\WwiseConsole.exe");
 
 			if (!System.IO.File.Exists(result))
-				result = System.IO.Path.Combine(settings.WwiseInstallationPathWindows, @"Authoring\Win32\Release\bin\WwiseCLI.exe");
+				result = System.IO.Path.Combine(settings.WwiseInstallationPathWindows, @"Authoring\Win32\Release\bin\WwiseConsole.exe");
 		}
 #elif UNITY_EDITOR_OSX
 		if (!string.IsNullOrEmpty(settings.WwiseInstallationPathMac))
-			result = System.IO.Path.Combine(settings.WwiseInstallationPathMac, "Contents/Tools/WwiseCLI.sh");
+			result = System.IO.Path.Combine(settings.WwiseInstallationPathMac, "Contents/Tools/WwiseConsole.sh");
 #endif
 
 		if (result != null && System.IO.File.Exists(result))
@@ -155,36 +155,36 @@ public partial class AkUtilities
 				"The SoundBank generation process ignores the SoundBank Settings' Overrides currently enabled in the User settings. The project's SoundBank settings will be used.");
 		}
 
-		var wwiseCli = GetWwiseCLI();
-		if (wwiseCli == null)
+		var wwiseConsole = GetWwiseConsole();
+		if (wwiseConsole == null)
 		{
-			UnityEngine.Debug.LogError("Couldn't locate WwiseCLI, unable to generate SoundBanks.");
+			UnityEngine.Debug.LogError("Couldn't locate WwiseConsole, unable to generate SoundBanks.");
 			return;
 		}
 
 #if UNITY_EDITOR_WIN
-		var command = wwiseCli;
+		var command = wwiseConsole;
 		var arguments = "";
 #elif UNITY_EDITOR_OSX
 		var command = "/bin/sh";
-		var arguments = "\"" + wwiseCli + "\"";
+		var arguments = "\"" + wwiseConsole + "\"";
 #else
 		var command = "";
 		var arguments = "";
 #endif
+		arguments += " generate-soundbank";
 
-		arguments += " \"" + wwiseProjectFullPath + "\"";
+		arguments += " \"" + wwiseProjectFullPath.Replace("\"","") + "\"";
 
-		if (platforms != null)
+		if (platforms != null && platforms.Count() >0)
 		{
+			arguments += " --platform";
 			foreach (var platform in platforms)
 			{
 				if (!string.IsNullOrEmpty(platform))
-					arguments += " -Platform " + platform;
+					arguments += " " + platform;
 			}
 		}
-
-		arguments += " -GenerateSoundBanks";
 
 		var output = ExecuteCommandLine(command, arguments);
 		if (output.Contains("Process completed successfully."))

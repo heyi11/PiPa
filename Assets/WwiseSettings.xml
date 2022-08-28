@@ -10,9 +10,11 @@
   <ShowMissingRigidBodyWarning>true</ShowMissingRigidBodyWarning>
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
   <WwiseInstallationPathMac>/Applications/Audiokinetic/Wwise 2021.1.9.7847/Wwise.app</WwiseInstallationPathMac>
-  <WwiseInstallationPathWindows>D:\Wwise</WwiseInstallationPathWindows>
-  <WwiseProjectPath>../../PI_PA/PipaWorld0401(1)/PipaWorld0401.wproj</WwiseProjectPath>
+  <WwiseInstallationPathWindows>D:\wwise\Wwise 2022.1.0.7985</WwiseInstallationPathWindows>
+  <WwiseProjectPath>../../PI_PA-master-812e693ee923e1531150df2c698b042c979a984d/PipaWorld0401(1)/PipaWorld0401.wproj</WwiseProjectPath>
   <UseWaapi>true</UseWaapi>
   <WaapiPort>8080</WaapiPort>
   <WaapiIP>127.0.0.1</WaapiIP>
+  <XMLTranslatorTimeout>10</XMLTranslatorTimeout>
+  <WaapiTranslatorTimeout>0</WaapiTranslatorTimeout>
 </WwiseSettings>

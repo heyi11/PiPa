@@ -14,7 +14,7 @@ public class AkChannelEmitterArray : System.IDisposable
 	public AkChannelEmitterArray(uint in_Count)
 	{
 		// Three vectors of 3 floats, plus a mask
-		m_Buffer = System.Runtime.InteropServices.Marshal.AllocHGlobal((int) in_Count * (sizeof(float) * 9 + sizeof(uint)));
+		m_Buffer = System.Runtime.InteropServices.Marshal.AllocHGlobal((int) in_Count * (sizeof(float) * 6 + sizeof(double) * 3 + sizeof(uint)));
 		m_Current = m_Buffer;
 		m_MaxCount = in_Count;
 		Count = 0;
@@ -43,7 +43,7 @@ public class AkChannelEmitterArray : System.IDisposable
 		Count = 0;
 	}
 
-	public void Add(UnityEngine.Vector3 in_Pos, UnityEngine.Vector3 in_Forward, UnityEngine.Vector3 in_Top,
+	public void Add(AkVector64 in_Pos, UnityEngine.Vector3 in_Forward, UnityEngine.Vector3 in_Top,
 		uint in_ChannelMask)
 	{
 		if (Count >= m_MaxCount)
@@ -68,15 +68,17 @@ public class AkChannelEmitterArray : System.IDisposable
 		System.Runtime.InteropServices.Marshal.WriteInt32(m_Current,
 			System.BitConverter.ToInt32(System.BitConverter.GetBytes(in_Top.z), 0));
 		m_Current = (System.IntPtr) (m_Current.ToInt64() + sizeof(float));
-		System.Runtime.InteropServices.Marshal.WriteInt32(m_Current,
-			System.BitConverter.ToInt32(System.BitConverter.GetBytes(in_Pos.x), 0));
-		m_Current = (System.IntPtr) (m_Current.ToInt64() + sizeof(float));
-		System.Runtime.InteropServices.Marshal.WriteInt32(m_Current,
-			System.BitConverter.ToInt32(System.BitConverter.GetBytes(in_Pos.y), 0));
-		m_Current = (System.IntPtr) (m_Current.ToInt64() + sizeof(float));
-		System.Runtime.InteropServices.Marshal.WriteInt32(m_Current,
-			System.BitConverter.ToInt32(System.BitConverter.GetBytes(in_Pos.z), 0));
-		m_Current = (System.IntPtr) (m_Current.ToInt64() + sizeof(float));
+		
+		System.Runtime.InteropServices.Marshal.WriteInt64(m_Current,
+			System.BitConverter.ToInt64(System.BitConverter.GetBytes(in_Pos.X), 0));
+		m_Current = (System.IntPtr) (m_Current.ToInt64() + sizeof(double));
+		System.Runtime.InteropServices.Marshal.WriteInt64(m_Current,
+			System.BitConverter.ToInt64(System.BitConverter.GetBytes(in_Pos.Y), 0));
+		m_Current = (System.IntPtr) (m_Current.ToInt64() + sizeof(double));
+		System.Runtime.InteropServices.Marshal.WriteInt64(m_Current,
+			System.BitConverter.ToInt64(System.BitConverter.GetBytes(in_Pos.Z), 0));
+		m_Current = (System.IntPtr) (m_Current.ToInt64() + sizeof(double));
+
 		System.Runtime.InteropServices.Marshal.WriteInt32(m_Current, (int) in_ChannelMask);
 		m_Current = (System.IntPtr) (m_Current.ToInt64() + sizeof(uint));
 

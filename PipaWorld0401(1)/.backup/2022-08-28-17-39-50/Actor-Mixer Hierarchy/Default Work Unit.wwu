@@ -1,0 +1,1450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{1733E5DD-4396-4004-8692-DD5BDEC00E54}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{1733E5DD-4396-4004-8692-DD5BDEC00E54}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="vacant_4" ID="{E42ADE52-4ABD-4DBD-A4EE-5C6692B0456A}" ShortID="164990139">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>15</Value>
+							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{8B04AC19-1773-4513-A3FB-EDAE952983BA}" ShortID="1050465871">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="strength" ID="{C9EA995C-687E-41B3-9318-49D61B7872BF}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{A8FA5657-A5D4-4F88-B39F-33BDC942A8D6}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0.01</XPos>
+												<YPos>2.99999999999997</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0.085</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>0.4</XPos>
+												<YPos>-5</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{5111B51F-805C-4A32-A2F3-6785BDF8BE0B}" ShortID="563198166">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="WS_strength" ID="{A6C29660-5629-4C16-A94F-23BDF9A57F17}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{4B7282F2-607C-40C6-98AC-0E5DDD573630}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-5</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>2.99999999999997</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4FE64407-0036-409C-B2FE-9366DC8C6723}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F3B90ECE-7F37-4C4E-BCDC-35C16D34E39C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="vacant" ID="{2EF2AB21-1553-4A2D-AE1F-9AE679CA4ED1}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="33.6571842950378"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>vacant.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="143734214"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="vacant" ID="{2EF2AB21-1553-4A2D-AE1F-9AE679CA4ED1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="vacant_3" ID="{D41F6E10-3CAC-45FC-A8BE-119FA0D22C49}" ShortID="440119028">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>20</Value>
+							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{8219E823-BC1B-4F61-94E1-2EA30EBD54E2}" ShortID="133220718">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="strength" ID="{C9EA995C-687E-41B3-9318-49D61B7872BF}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{85D6210E-00C0-4CAE-9391-13DEDD568C12}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0.01</XPos>
+												<YPos>2.99999999999997</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0.085</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>0.4</XPos>
+												<YPos>-5</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{F3412168-B70E-4550-9ADC-293B349F7649}" ShortID="358746646">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="WS_strength" ID="{A6C29660-5629-4C16-A94F-23BDF9A57F17}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{FA7BC863-3B2D-44FE-B93D-DB78A1AB7B4F}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-5</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>2.99999999999997</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4FE64407-0036-409C-B2FE-9366DC8C6723}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F3B90ECE-7F37-4C4E-BCDC-35C16D34E39C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="vacant" ID="{3E8FFB31-5616-4713-8A6A-5E82F72D8927}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="25.2194500706551"/>
+								<Property Name="TrimEnd" Type="Real64" Value="33.6037973963959"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>vacant.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="19411407"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="vacant" ID="{3E8FFB31-5616-4713-8A6A-5E82F72D8927}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="vacant_2" ID="{735B736F-F91D-4B89-941B-7EB0365DEC0E}" ShortID="28038637">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>18</Value>
+							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{1C119A47-B091-44AF-98E9-47456AE34040}" ShortID="835441507">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="strength" ID="{C9EA995C-687E-41B3-9318-49D61B7872BF}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{64667A6F-2D5A-4BA2-8290-E68173C4F063}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0.01</XPos>
+												<YPos>2.99999999999997</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0.085</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>0.4</XPos>
+												<YPos>-5</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{689BD7E8-19CA-45C1-86A1-0AD8CD87B7F3}" ShortID="366193467">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="WS_strength" ID="{A6C29660-5629-4C16-A94F-23BDF9A57F17}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{70ACBC0B-10FB-4D06-B02A-981C04D0B5EE}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-5</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>2.99999999999997</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4FE64407-0036-409C-B2FE-9366DC8C6723}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F3B90ECE-7F37-4C4E-BCDC-35C16D34E39C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="vacant" ID="{0DFBDEC9-C5FD-48AF-90FB-8C3C1326AD52}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="15.3340483454292"/>
+								<Property Name="TrimEnd" Type="Real64" Value="24.9962089199654"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>vacant.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="283640776"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="vacant" ID="{0DFBDEC9-C5FD-48AF-90FB-8C3C1326AD52}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="vacant_1" ID="{155C6466-D778-43F0-9F5A-40995A402212}" ShortID="528416394">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>20</Value>
+							</ValueList>
+							<RTPCList>
+								<RTPC Name="" ID="{475CE053-6836-494D-BC9C-C37971D874B8}" ShortID="149786786">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="WS_strength" ID="{A6C29660-5629-4C16-A94F-23BDF9A57F17}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{8D2ECB69-D440-4EC3-9AAA-99E41D012B56}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-5</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>2.99999999999997</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+								<RTPC Name="" ID="{FC8FD069-1FFD-419E-B4F0-2B918A35D8E8}" ShortID="987644951">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="strength" ID="{C9EA995C-687E-41B3-9318-49D61B7872BF}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{F77D157A-2E88-4B2E-8C7D-D2CB146177AB}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0.01</XPos>
+												<YPos>2.99999999999997</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>0.085</XPos>
+												<YPos>0</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>0.4</XPos>
+												<YPos>-5</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4FE64407-0036-409C-B2FE-9366DC8C6723}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F3B90ECE-7F37-4C4E-BCDC-35C16D34E39C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="vacant" ID="{9BC5EA5B-382B-4E01-A56A-BEB1A80A665C}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="6.18492284564708"/>
+								<Property Name="TrimEnd" Type="Real64" Value="14.4789898875056"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>vacant.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="912371452"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="vacant" ID="{9BC5EA5B-382B-4E01-A56A-BEB1A80A665C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<ActorMixer Name="pick" ID="{89C08320-479D-4C2F-BA93-CD6C6AEE2402}" ShortID="365788760">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<RTPCList>
+								<RTPC Name="" ID="{3512485B-E048-44D3-A557-459228CFFE29}" ShortID="654986325">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="pitchChange_distance" ID="{AC37CCD4-D238-417C-B67F-5E0A328D2587}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{031D0E32-D13D-4CB8-AEA2-777575F02649}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="65537"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>0</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Log3</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>300</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4FE64407-0036-409C-B2FE-9366DC8C6723}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F3B90ECE-7F37-4C4E-BCDC-35C16D34E39C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="pick_4" ID="{7E46585A-F1BD-4941-9C27-C09FB5D51E63}" ShortID="258819270">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{476D089E-4B84-410C-99D5-E24DDB589BCF}" ShortID="135425474">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="play_distance" ID="{7C047EAE-0BED-4A31-B449-9DF4C197B386}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{7880C10C-0CDD-42CE-A22E-9131D6D02A81}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-5</XPos>
+														<YPos>-1000</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>24</XPos>
+														<YPos>1900</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>16</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{0017BAC3-1CE8-4550-974D-5DC07B2FFDB1}" ShortID="458010667">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="WS_strength" ID="{A6C29660-5629-4C16-A94F-23BDF9A57F17}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{B0A060E0-78EB-410A-B9F1-E21E232374D6}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-5</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>2.99999999999997</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{5EF08FCA-E2C4-44C3-9786-B4F63A02C0DC}" ShortID="860600503">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="strength" ID="{C9EA995C-687E-41B3-9318-49D61B7872BF}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{CA38A526-42D0-4582-B0CA-55D99CB11406}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0.01</XPos>
+														<YPos>2.99999999999997</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0.085</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>0.4</XPos>
+														<YPos>-5</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4FE64407-0036-409C-B2FE-9366DC8C6723}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F3B90ECE-7F37-4C4E-BCDC-35C16D34E39C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="n10 g" ID="{E2115DF5-47E9-4921-A8D2-293C45E1F14A}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.385639476143287"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>n10 g.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="615267654"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="n10 g" ID="{E2115DF5-47E9-4921-A8D2-293C45E1F14A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="pick_3" ID="{18A69A4D-423A-4666-B909-473882696CB4}" ShortID="691463783">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{B45D2013-3C86-4F61-B663-AE6DE4EFBEA6}" ShortID="803598435">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="play_distance" ID="{7C047EAE-0BED-4A31-B449-9DF4C197B386}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{83929631-8BB7-4828-8F5B-65014AEFBCB2}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-5</XPos>
+														<YPos>-1000</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>24</XPos>
+														<YPos>1900</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{EC7EB539-F3A6-4968-93FD-3D2CD55CD50B}" ShortID="767092804">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="WS_strength" ID="{A6C29660-5629-4C16-A94F-23BDF9A57F17}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{45AE80F6-B599-4EBE-9B5F-3A6C126F4E52}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-5</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>2.99999999999997</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{0DA6DE58-6590-4109-AA06-89D19273279B}" ShortID="41284539">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="strength" ID="{C9EA995C-687E-41B3-9318-49D61B7872BF}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{7D1960B7-49DE-40F9-BDFC-2990F5CD0D5C}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0.01</XPos>
+														<YPos>2.99999999999997</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0.085</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>0.4</XPos>
+														<YPos>-5</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4FE64407-0036-409C-B2FE-9366DC8C6723}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F3B90ECE-7F37-4C4E-BCDC-35C16D34E39C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="n15 c1" ID="{09F138BA-9A77-42DE-AAFC-FB701BAE6D2C}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.464752423748801"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>n15 c1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="325550130"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="n15 c1" ID="{09F138BA-9A77-42DE-AAFC-FB701BAE6D2C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="pick_2" ID="{DB5678F6-F6D1-434A-AF46-1DF92FF06715}" ShortID="104821031">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{6E96851B-D475-40E7-8ACF-418727F633AB}" ShortID="145103564">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="play_distance" ID="{7C047EAE-0BED-4A31-B449-9DF4C197B386}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{C41C4B2A-756E-41E6-8E13-20952D75D3D2}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-5</XPos>
+														<YPos>-1000</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>24</XPos>
+														<YPos>1900</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>18</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{FB19FC31-028C-4224-95C7-B97E97DD138B}" ShortID="938019284">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="strength" ID="{C9EA995C-687E-41B3-9318-49D61B7872BF}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{8C29680D-3BCF-42D3-8D9C-BCF433C6B27F}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0.01</XPos>
+														<YPos>2.99999999999997</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0.085</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>0.4</XPos>
+														<YPos>-5</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{C849F79C-4C0B-4E0F-B95B-BA8245F82D78}" ShortID="397228996">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="WS_strength" ID="{A6C29660-5629-4C16-A94F-23BDF9A57F17}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{B83114E0-4B4B-4B54-9BA5-FECDD8690BBA}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-5</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>2.99999999999997</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4FE64407-0036-409C-B2FE-9366DC8C6723}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F3B90ECE-7F37-4C4E-BCDC-35C16D34E39C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="n17 d1" ID="{56E89F13-6CD5-4D32-A22B-645F295A2740}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.426403255236739"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>n17 d1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="706340793"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="n17 d1" ID="{56E89F13-6CD5-4D32-A22B-645F295A2740}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="pick_1" ID="{1F06D18B-14BB-4FAD-B97C-F3C5642A318C}" ShortID="156840503">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{CF00156D-C309-4EAA-BCFF-C481D9D409B0}" ShortID="411848990">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="play_distance" ID="{7C047EAE-0BED-4A31-B449-9DF4C197B386}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{2BBF1176-0E64-4397-AC74-5293A4E3FA0D}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-5</XPos>
+														<YPos>-1000</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>24</XPos>
+														<YPos>1900</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>13</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{80FCE5E3-B899-4602-85BC-DDDB7E4EF545}" ShortID="361338160">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="WS_strength" ID="{A6C29660-5629-4C16-A94F-23BDF9A57F17}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{F79FC150-FC83-4FDB-A353-796726A29DF7}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-5</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>3</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{FE5487F7-A8DC-429F-95AC-87283D3EF83A}" ShortID="101148495">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="strength" ID="{C9EA995C-687E-41B3-9318-49D61B7872BF}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{F835CF91-D66D-4190-B347-9EE034EDBE38}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0.01</XPos>
+														<YPos>3</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0.085</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>0.4</XPos>
+														<YPos>-5</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4FE64407-0036-409C-B2FE-9366DC8C6723}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F3B90ECE-7F37-4C4E-BCDC-35C16D34E39C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="n22 g1" ID="{54DB7AFA-D30B-4F0D-86EF-1A8B1428A067}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.418134714809352"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>n22 g1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="81293387"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="n22 g1" ID="{54DB7AFA-D30B-4F0D-86EF-1A8B1428A067}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+				<Sound Name="test" ID="{E048A2DF-B8A6-42A1-A8FE-B0A1DD4C99DC}" ShortID="195283763">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>11</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4FE64407-0036-409C-B2FE-9366DC8C6723}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F3B90ECE-7F37-4C4E-BCDC-35C16D34E39C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="n12 a" ID="{C4091E87-21D3-45E7-80E8-076843646E2D}">
+							<Language>SFX</Language>
+							<AudioFile>n12 a.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="199129086"/>
+							</MediaIDList>
+						</AudioFileSource>
+						<AudioFileSource Name="n17 d1" ID="{5AD5E60D-0F94-4435-874E-B4EFCB3C10F9}">
+							<Language>SFX</Language>
+							<AudioFile>n17 d1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="737913886"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="n12 a" ID="{C4091E87-21D3-45E7-80E8-076843646E2D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<ActorMixer Name="Vibrato" ID="{8AF7E9D6-9E49-4E4D-9A38-822701474AAD}" ShortID="880936271">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4FE64407-0036-409C-B2FE-9366DC8C6723}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F3B90ECE-7F37-4C4E-BCDC-35C16D34E39C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Vibrato1" ID="{CEEFE922-4FAA-4167-899E-A8EC878AC3B1}" ShortID="183145896">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{CF6BAC8C-B332-4B5B-9731-238B7E25605C}" ShortID="490625904">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="play_distance" ID="{7C047EAE-0BED-4A31-B449-9DF4C197B386}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{3956B675-20A4-4E71-86D2-1B5CEB335B2D}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-5</XPos>
+														<YPos>-700</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>24</XPos>
+														<YPos>2200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>9</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{14F49E12-75F9-4F3F-800E-604F68B7E519}" ShortID="1007833677">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="strength" ID="{C9EA995C-687E-41B3-9318-49D61B7872BF}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{FC6B7FCC-69FA-45A3-B0D9-758BF259A3DC}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0.01</XPos>
+														<YPos>3</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0.085</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>0.4</XPos>
+														<YPos>-5</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{EABE3470-8E1A-4422-9DE7-BBD5F0DC1C57}" ShortID="464924970">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="WS_strength" ID="{A6C29660-5629-4C16-A94F-23BDF9A57F17}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{FC2D388F-A323-4612-BEBD-D515A7A82DE0}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-5</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>2.99999999999997</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4FE64407-0036-409C-B2FE-9366DC8C6723}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F3B90ECE-7F37-4C4E-BCDC-35C16D34E39C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="n22 g1" ID="{5A22BBB6-CDEE-4789-8C9F-73D32CDD6FE5}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.418134714809352"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>n22 g1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="81293387"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="T0262A2-1d9-1" ID="{083884DD-E1C0-4383-85DE-B8F739D4BFD5}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.608491085097321"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="7.77763922309466"/>
+										<Property Name="TrimEnd" Type="Real64" Value="9.76008775790721"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>T0262A2-1d9-1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="791483722"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="T0262A2-1d9-1" ID="{083884DD-E1C0-4383-85DE-B8F739D4BFD5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Vibrato2" ID="{D453CFED-D3AC-40A4-955C-319BD166A4B7}" ShortID="1037862778">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{71B0FF80-4810-41B1-9B95-158D4E359F7F}" ShortID="262604656">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="play_distance" ID="{7C047EAE-0BED-4A31-B449-9DF4C197B386}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{6CF4EFA7-ADCC-4FCC-9BDA-8F139439BADF}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-5</XPos>
+														<YPos>-1200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>24</XPos>
+														<YPos>1700</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>9</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{AE47B719-35B4-4686-A739-FC767DC40696}" ShortID="584601007">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="strength" ID="{C9EA995C-687E-41B3-9318-49D61B7872BF}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{DEB6FD14-00B6-40F5-9295-D5C2E944561A}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0.01</XPos>
+														<YPos>3</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0.085</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>0.4</XPos>
+														<YPos>-5</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{8316F55A-FBFD-4607-9637-211B63EB2622}" ShortID="30784893">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="WS_strength" ID="{A6C29660-5629-4C16-A94F-23BDF9A57F17}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{37AE313E-74A6-4BB2-B9EC-5FBD97B53C40}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-5</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>2.99999999999997</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4FE64407-0036-409C-B2FE-9366DC8C6723}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F3B90ECE-7F37-4C4E-BCDC-35C16D34E39C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="n22 g1" ID="{1F9AAD87-2FC4-4A01-A260-0B9A85149EBC}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.418134714809352"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>n22 g1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="81293387"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="T0262A2-1d9-1" ID="{EB920C7B-29B5-407D-93A6-8D144063C2A0}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.608491085097321"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="7.77763922309466"/>
+										<Property Name="TrimEnd" Type="Real64" Value="9.76008775790721"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>T0262A2-1d9-1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="791483722"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="T0262A2-1d9-1" ID="{EB920C7B-29B5-407D-93A6-8D144063C2A0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Vibrato3" ID="{273E29AC-EC2B-432A-B4F4-E658C2B82918}" ShortID="460561887">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{D86E5C44-01C5-463F-A4FF-9B322AEA1227}" ShortID="131349336">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="play_distance" ID="{7C047EAE-0BED-4A31-B449-9DF4C197B386}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{AFC7399F-190F-4F03-B928-5EB489C33C08}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-5</XPos>
+														<YPos>-1400</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>24</XPos>
+														<YPos>1500</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>9</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{699AF939-ABA5-4D3A-A1EF-43656C35428E}" ShortID="745076979">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="WS_strength" ID="{A6C29660-5629-4C16-A94F-23BDF9A57F17}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{7B64186F-C872-4061-B429-7BB68C8A2402}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-5</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>2.99999999999997</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{4285AEB6-7F4C-4773-8E23-42D8BD5E531A}" ShortID="213594383">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="strength" ID="{C9EA995C-687E-41B3-9318-49D61B7872BF}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{0F4A31CA-D1E8-4845-B6A7-DB28B3537CF6}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0.01</XPos>
+														<YPos>3</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0.085</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>0.4</XPos>
+														<YPos>-5</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4FE64407-0036-409C-B2FE-9366DC8C6723}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F3B90ECE-7F37-4C4E-BCDC-35C16D34E39C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="n22 g1" ID="{6962B6BA-CA6D-4F8B-B7A0-491D6D864D9A}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.418134714809352"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>n22 g1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="81293387"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="T0262A2-1d9-1" ID="{2AC8356A-C164-4C2F-9D31-53CEC8F505D6}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.608491085097321"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="7.77763922309466"/>
+										<Property Name="TrimEnd" Type="Real64" Value="9.76008775790721"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>T0262A2-1d9-1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="791483722"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="T0262A2-1d9-1" ID="{2AC8356A-C164-4C2F-9D31-53CEC8F505D6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Vibrato4" ID="{EA744A85-D279-42F8-86D7-5B9EA04190E5}" ShortID="212641909">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{7D49F86C-1950-4E43-AFBC-D483B0BE5609}" ShortID="800271111">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="play_distance" ID="{7C047EAE-0BED-4A31-B449-9DF4C197B386}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{BFC8CBC0-BA4F-4D33-A0F4-386E399E8C22}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>-5</XPos>
+														<YPos>-1900</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>24</XPos>
+														<YPos>1000</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>9</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{680FE0BD-3D63-4DD7-806D-6AED98CA5B01}" ShortID="241882202">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="strength" ID="{C9EA995C-687E-41B3-9318-49D61B7872BF}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{CB1A3776-FAD9-4C86-8121-58E24546915B}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0.01</XPos>
+														<YPos>3</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>0.085</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>0.4</XPos>
+														<YPos>-5</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{00D6AEF9-D296-4497-9B44-375D2B8BF95E}" ShortID="654266301">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="WS_strength" ID="{A6C29660-5629-4C16-A94F-23BDF9A57F17}" WorkUnitID="{6F5488C7-30F1-40EF-85CF-25F205819EBD}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{89619EBE-16ED-4659-AC07-87AD8E54F5BC}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-5</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>2.99999999999997</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4FE64407-0036-409C-B2FE-9366DC8C6723}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F3B90ECE-7F37-4C4E-BCDC-35C16D34E39C}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="n22 g1" ID="{F1AAD71C-D061-4563-9983-A80C8D89FCE5}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.418134714809352"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>n22 g1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="81293387"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="T0262A2-1d9-1" ID="{65DF6761-65E0-4587-98FB-CE23C86CC5E6}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.608491085097321"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="7.77763922309466"/>
+										<Property Name="TrimEnd" Type="Real64" Value="9.76008775790721"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>T0262A2-1d9-1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="791483722"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="T0262A2-1d9-1" ID="{65DF6761-65E0-4587-98FB-CE23C86CC5E6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
