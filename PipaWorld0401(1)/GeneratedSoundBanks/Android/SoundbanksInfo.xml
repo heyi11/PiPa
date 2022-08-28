@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\</ProjectRoot>
+		<SourceFilesRoot>D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="70290103" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\little_try</ObjectPath>
+			<ShortName>little_try</ShortName>
+			<Path>little_try.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="739016712">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1661684533" Language="SFX" Hash="903850648">
+			<ObjectPath>\SoundBanks\Default Work Unit\test0422</ObjectPath>
+			<ShortName>test0422</ShortName>
+			<Path>test0422.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3674998761" Name="string1_pick" ObjectPath="\Events\Default Work Unit\string1_pick" DurationType="OneShot" DurationMin="2.581865" DurationMax="2.581865">
+					<IncludedMemoryFiles>
+						<File Id="81293387" Language="SFX">
+							<ShortName>n22 g1.wav</ShortName>
+							<Path>SFX\n22 g1_B537143A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2631699943" Name="string1_vacant" ObjectPath="\Events\Default Work Unit\string1_vacant" DurationType="OneShot" DurationMin="8.294067" DurationMax="8.294067">
+					<IncludedMemoryFiles>
+						<File Id="912371452" Language="SFX">
+							<ShortName>vacant.wav</ShortName>
+							<Path>SFX\vacant_D58BEB4B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2012310237" Name="string1_vibrato" ObjectPath="\Events\Default Work Unit\string1_vibrato" DurationType="OneShot" DurationMin="1.982449" DurationMax="1.982449">
+					<IncludedMemoryFiles>
+						<File Id="791483722" Language="SFX">
+							<ShortName>T0262A2-1d9-1.wav</ShortName>
+							<Path>SFX\T0262A2-1d9-1_654F8BA9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1912895544" Name="string2_pick" ObjectPath="\Events\Default Work Unit\string2_pick" DurationType="OneShot" DurationMin="2.573597" DurationMax="2.573597">
+					<IncludedMemoryFiles>
+						<File Id="706340793" Language="SFX">
+							<ShortName>n17 d1.wav</ShortName>
+							<Path>SFX\n17 d1_D35984CB.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="729559918" Name="string2_vacant" ObjectPath="\Events\Default Work Unit\string2_vacant" DurationType="OneShot" DurationMin="9.662161" DurationMax="9.662161">
+					<IncludedMemoryFiles>
+						<File Id="283640776" Language="SFX">
+							<ShortName>vacant.wav</ShortName>
+							<Path>SFX\vacant_4029398A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2545209334" Name="string2_vibrato" ObjectPath="\Events\Default Work Unit\string2_vibrato" DurationType="OneShot" DurationMin="1.982449" DurationMax="1.982449">
+					<IncludedMemoryFiles>
+						<File Id="791483722" Language="SFX">
+							<ShortName>T0262A2-1d9-1.wav</ShortName>
+							<Path>SFX\T0262A2-1d9-1_654F8BA9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1611632903" Name="string3_pick" ObjectPath="\Events\Default Work Unit\string3_pick" DurationType="OneShot" DurationMin="2.535248" DurationMax="2.535248">
+					<IncludedMemoryFiles>
+						<File Id="325550130" Language="SFX">
+							<ShortName>n15 c1.wav</ShortName>
+							<Path>SFX\n15 c1_3D106B3B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="370748201" Name="string3_vacant" ObjectPath="\Events\Default Work Unit\string3_vacant" DurationType="OneShot" DurationMin="8.384347" DurationMax="8.384347">
+					<IncludedMemoryFiles>
+						<File Id="19411407" Language="SFX">
+							<ShortName>vacant.wav</ShortName>
+							<Path>SFX\vacant_520FB3D5.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="330799799" Name="string3_vibrato" ObjectPath="\Events\Default Work Unit\string3_vibrato" DurationType="OneShot" DurationMin="1.982449" DurationMax="1.982449">
+					<IncludedMemoryFiles>
+						<File Id="791483722" Language="SFX">
+							<ShortName>T0262A2-1d9-1.wav</ShortName>
+							<Path>SFX\T0262A2-1d9-1_654F8BA9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3831291814" Name="string4_pick" ObjectPath="\Events\Default Work Unit\string4_pick" DurationType="OneShot" DurationMin="2.614361" DurationMax="2.614361">
+					<IncludedMemoryFiles>
+						<File Id="615267654" Language="SFX">
+							<ShortName>n10 g.wav</ShortName>
+							<Path>SFX\n10 g_357C12E5.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1476209984" Name="string4_vacant" ObjectPath="\Events\Default Work Unit\string4_vacant" DurationType="OneShot" DurationMin="7.271614" DurationMax="7.271614">
+					<IncludedMemoryFiles>
+						<File Id="143734214" Language="SFX">
+							<ShortName>vacant.wav</ShortName>
+							<Path>SFX\vacant_99198C44.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3215507904" Name="string4_vibrato" ObjectPath="\Events\Default Work Unit\string4_vibrato" DurationType="OneShot" DurationMin="1.982449" DurationMax="1.982449">
+					<IncludedMemoryFiles>
+						<File Id="791483722" Language="SFX">
+							<ShortName>T0262A2-1d9-1.wav</ShortName>
+							<Path>SFX\T0262A2-1d9-1_654F8BA9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="944600591" Name="play_distance" ObjectPath="\Game Parameters\Default Work Unit\play_distance"/>
+				<GameParameter Id="1008270286" Name="strength" ObjectPath="\Game Parameters\Default Work Unit\strength"/>
+				<GameParameter Id="2431272873" Name="pitchChange_distance" ObjectPath="\Game Parameters\Default Work Unit\pitchChange_distance"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

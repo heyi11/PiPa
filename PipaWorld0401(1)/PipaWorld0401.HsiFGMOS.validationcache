@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="103">
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1648372722" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Virtual Acoustics\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Triggers\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Switches\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\States\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\SoundBanks\Default Work Unit.wwu" DateLow="1648808667" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Queries\Factory Queries.wwu" DateLow="1648372722" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Queries\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Presets\Factory Spatial Audio.wwu" DateLow="1648372722" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Presets\Factory Reflect.wwu" DateLow="1648373000" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Presets\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\PipaWorld0401.wproj" DateLow="1649410624" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\PipaWorld0401.HsiFGMOS.wsettings" DateLow="1649427841" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Modulators\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Mixing Sessions\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Metadata\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1648805868" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1648373001" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Game Parameters\Factory Motion.wwu" DateLow="1648373002" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Game Parameters\Default Work Unit.wwu" DateLow="1648808147" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Events\Default Work Unit.wwu" DateLow="1648806790" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Effects\Factory Reflect.wwu" DateLow="1648373000" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Effects\Factory McDSP Effects.wwu" DateLow="1648372998" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Effects\Factory Mastering Suite.wwu" DateLow="1648373003" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1648372988" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1648372988" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1648372988" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Effects\Factory iZotope Filters.wwu" DateLow="1648372988" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Effects\Factory iZotope Dynamics.wwu" DateLow="1648372988" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Effects\Factory iZotope Delay.wwu" DateLow="1648372988" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Effects\Factory iZotope Box Modeler.wwu" DateLow="1648372988" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Effects\Factory Effects.wwu" DateLow="1648372722" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Effects\Factory Auro Headphone.wwu" DateLow="1648372977" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Effects\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1648372722" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Conversion Settings\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Control Surface Sessions\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Audio Devices\Default Work Unit.wwu" DateLow="1648805868" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Attenuations\Default Work Unit.wwu" DateLow="1648779852" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1648372722" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1648373001" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1648805868" DateHigh="0"/>
+	<ValidationCacheItem File="H:\study\天下乐器\wwise\PipaWorld0401\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1648808147" DateHigh="0"/>
+</ValidationCache>

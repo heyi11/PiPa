@@ -1,0 +1,30 @@
+Event	ID	Name			Wwise Object Path	Notes
+	330799799	string3_vibrato			\Default Work Unit\string3_vibrato	
+	370748201	string3_vacant			\Default Work Unit\string3_vacant	
+	729559918	string2_vacant			\Default Work Unit\string2_vacant	
+	1476209984	string4_vacant			\Default Work Unit\string4_vacant	
+	1611632903	string3_pick			\Default Work Unit\string3_pick	
+	1912895544	string2_pick			\Default Work Unit\string2_pick	
+	2012310237	string1_vibrato			\Default Work Unit\string1_vibrato	
+	2545209334	string2_vibrato			\Default Work Unit\string2_vibrato	
+	2631699943	string1_vacant			\Default Work Unit\string1_vacant	
+	3215507904	string4_vibrato			\Default Work Unit\string4_vibrato	
+	3674998761	string1_pick			\Default Work Unit\string1_pick	
+	3831291814	string4_pick			\Default Work Unit\string4_pick	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	944600591	play_distance			\Default Work Unit\play_distance	
+	1008270286	strength			\Default Work Unit\strength	
+	2431272873	pitchChange_distance			\Default Work Unit\pitchChange_distance	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	19411407	vacant_3	D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\.cache\Windows\SFX\vacant_520FB3D5.wem		\Actor-Mixer Hierarchy\Default Work Unit\vacant_3		739562
+	81293387	pick_1	D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\.cache\Windows\SFX\n22 g1_B537143A.wem		\Actor-Mixer Hierarchy\Default Work Unit\pick\pick_1		227784
+	143734214	vacant_4	D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\.cache\Windows\SFX\vacant_99198C44.wem		\Actor-Mixer Hierarchy\Default Work Unit\vacant_4		641420
+	283640776	vacant_2	D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\.cache\Windows\SFX\vacant_4029398A.wem		\Actor-Mixer Hierarchy\Default Work Unit\vacant_2		852266
+	325550130	pick_3	D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\.cache\Windows\SFX\n15 c1_3D106B3B.wem		\Actor-Mixer Hierarchy\Default Work Unit\pick\pick_3		223672
+	615267654	pick_4	D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\.cache\Windows\SFX\n10 g_357C12E5.wem		\Actor-Mixer Hierarchy\Default Work Unit\pick\pick_4		230650
+	706340793	pick_2	D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\.cache\Windows\SFX\n17 d1_D35984CB.wem		\Actor-Mixer Hierarchy\Default Work Unit\pick\pick_2		227056
+	791483722	Vibrato4	D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\.cache\Windows\SFX\T0262A2-1d9-1_654F8BA9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Vibrato\Vibrato4		174916
+	912371452	vacant_1	D:\Spring Semester, Junior Year\New App\PipaWorld0401(1)\.cache\Windows\SFX\vacant_D58BEB4B.wem		\Actor-Mixer Hierarchy\Default Work Unit\vacant_1		731600
+
